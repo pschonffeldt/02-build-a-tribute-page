@@ -1,0 +1,86 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  main {
+    margin: 10px 5px;
+    padding: 0 15px;
+    border-radius: 5px;
+    background: #eee;
+    max-width: 100%;
+  }
+  
+  .title {
+    padding: 0;
+  }
+  
+  .img-div {
+    background: rgb(255, 255, 255);
+    border-radius: 0;
+    color: #ffffff;
+    text-align: center; /* Ensure all content inside img-div is centered */
+  }
+  
+  #image {
+    display: block; /* Ensures the image is treated as a block-level element */
+    max-width: 100%; /* Makes sure the image doesn’t overflow its container */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  
+  .mg-caption {
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    max-width: 60%;
+    margin: 0 auto 50px auto;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 26px 0;
+  }
+  
+  .legend-p {
+    max-width: 60%;
+    margin: 0 auto 50px auto;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: left;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+  
+  .link {
+    max-width: 80%;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
